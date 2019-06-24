@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -12,23 +12,24 @@
 
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightpink;">
-        <div class="container-fluid">
+<body class="d-flex flex-column h-100"> <!--for the sticky footer-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+        <div class="container-fluid no-padding">
             <!-- to format the nav using the grid -->
-            <div class="row">
+            <div class="row w-100">
                 <div class="col-sm-1">
                     <!-- blank space for a margin -->
                 </div>
-                <a class="navbar-brand col-sm-2" href="#">Erin Ruth Maness</a>
+                <a class="navbar-brand col-2" style="background-color: hotpink; color: white;" href="#">Erin Ruth
+                    Maness</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="col-sm-4">
+                <div class="col-4">
                     <!-- more blank space between name and buttons-->
                 </div>
-                <div class="collapse navbar-collapse col-sm-4" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="index.html">About <span
                                 class="sr-only">(current)</span></a>
@@ -36,33 +37,42 @@
                         <a class="nav-item nav-link" href="contact.html">Contact</a>
                     </div>
                 </div>
-                <div class="col-sm-1">
+                <div class="col=1">
                     <!-- second margin -->
                 </div>
             </div>
         </div>
     </nav>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-3">
-                <img src="images/erinruthmaness.jpg" class="float-left" alt="picture of me">
-            </div>
-            <div class="col-7">
-                <p class="float=left">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid autem doloribus laudantium quasi
-                    suscipit nisi, nihil, exercitationem porro cum ratione ab a. Deleniti, quaerat quae repellat dolores
-                    repudiandae reiciendis eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ut
-                    dicta
-                    expedita debitis, ipsa nemo sit perspiciatis praesentium amet libero vel? Soluta sint, placeat
-                    corrupti
-                    quo ea impedit quis eum!
+
+    <div class="container bg-light">
+        <div class="row w-80">
+            <div class="col-lg-12">
+                <img src="images/erinruthmaness.jpg" alt="picture of me" style="height : 200px" class="float-left mr-2">
+
+                <p class="ml-2"> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Adipiscing elit duis tristique sollicitudin nibh sit
+                    amet commodo. Integer vitae justo eget magna fermentum iaculis. Consectetur purus ut faucibus
+                    pulvinar elementum integer. Malesuada proin libero nunc consequat interdum. Nulla posuere
+                    sollicitudin aliquam ultrices sagittis orci. Parturient montes nascetur ridiculus mus mauris vitae.
+                    Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. <br> Orci ac auctor augue
+                    mauris.
+                    Enim nec dui nunc mattis enim ut tellus. Nam libero justo laoreet sit amet cursus sit. Volutpat est
+                    velit egestas dui id ornare arcu odio ut. Cursus vitae congue mauris rhoncus aenean vel elit
+                    scelerisque. At erat pellentesque adipiscing commodo elit. Dictum varius duis at consectetur lorem
+                    donec massa. Arcu non sodales neque sodales ut. Sed sed risus pretium quam vulputate dignissim
+                    suspendisse in.
                 </p>
             </div>
 
         </div>
     </div>
 
+    <footer class="footer mt-auto py-3">
+        <div class="container" style="background-color: hotpink; text-align: center; color: white; font-size: 10px; height: 40px;">
+          <span>Copyright.</span>
+        </div>
+    </footer>
 
 </body>
 
